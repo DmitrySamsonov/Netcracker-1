@@ -1,0 +1,65 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #eaeaea;
+    margin:40px;
+
+}
+.main {
+    position:relative;
+    background-color: #FFF;
+    width: 1000px;
+    height:560px;
+    margin:0 auto;
+    padding:20px;
+    text-align: center;
+}
+
+
+TABLE {
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+TH {
+    background: #d0cef8; /* Цвет фона ячейки */
+    text-align: center;
+}
+TD {
+    background: rgb(255, 248, 184); /* Цвет фона ячеек */
+    text-align: left; /* Выравнивание по центру */
+}
+TH, TD {
+    border: 1px solid #e2e2e2; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+
+.title {
+    color: #000;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+.text{
+
+    padding-left:50px;
+    padding-right:50px;
+}
+
+
+.footer{
+    position:absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color:#cccccc;
+}
+
+.content{
+    height: 520px;
+    margin-top: -10px;
+}
